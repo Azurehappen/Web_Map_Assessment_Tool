@@ -5,6 +5,7 @@ Executive Summary
 Leidos is in the process of developing a J2945/A Compliant MAP Creation Tool. It will enhance the existing Map Creation tool hosted at URL: https://webapp.connectedvcs.com/isd/. These tools allow users to create map formats compliant with transportation applications by interacting with online map imagery. 
 This report concludes Task Order 02 of IRIQ #P010282172, which was completed by UCR under the supervision of Leidos (Prime Contract Number: 693JJ321D000010 DO#693JJ322F00268N). The purpose of Task Order 02 is to investigate and evaluate various sources of online imagery to assess their suitability to serve as the base map within the J2945/A Compliant MAP Creation Tool. 
 For the purpose of Leidos creating the J2945/A Compliant MAP Creation Tool the online imagery must:
+
 ●	come with an Application Programming Interface;
 ●	provide imagery that reliable shows roadway features clearly enough for users to click on key points;
 ●	provide geodetic (i.e., latitude and longitude) coordinates with sufficient precision to enable transportation applications; 
