@@ -7,10 +7,15 @@ This report concludes Task Order 02 of IRIQ #P010282172, which was completed by 
 For the purpose of Leidos creating the J2945/A Compliant MAP Creation Tool the online imagery must:
 
 ●	come with an Application Programming Interface;
+
 ●	provide imagery that reliable shows roadway features clearly enough for users to click on key points;
+
 ●	provide geodetic (i.e., latitude and longitude) coordinates with sufficient precision to enable transportation applications; 
+
 ●	provide geodetic coordinates in or convertible to the WGS 84 (G1762) datum; and,
+
 ●	provide geodetic coordinates with reliably accuracy.
+
 This report surveys and compares potential providers of online imagery relative to these criteria, then compares the five top candidates in Table 1. As discussed in Section 2, Google Earth, MapBox, and Microsoft Azure are selected for more detailed analysis. 
 The additional analysis compares the locations reported by each tool to ground truth coordinates determined by standard survey methods. The methods are discussed in Sections 3 - 7. The results are presented and discussed quantitatively in Section 8. 
 The main conclusions are: 
