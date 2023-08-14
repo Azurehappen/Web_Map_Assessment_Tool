@@ -180,6 +180,18 @@ plotHorErrors(azure_kh_struct, groupToColorDict, isAbsErr, gt_struct);
 xlabel('Point Number');
 title('Microsoft Azure points clicked by Kathryn', 'FontSize', 16)
 
+%%
+disp('Summary for Common Points:');
+disp('Points clicked by Wang');
+commonHorErrors(kml_wh_struct, azure_wh_struct, mapbox_wh_struct, true)
+commonHorErrors(kml_wh_struct, azure_wh_struct, mapbox_wh_struct, false)
+disp('Points clicked by Jay');
+commonHorErrors(kml_jf_struct, azure_jf_struct, mapbox_jf_struct, true)
+commonHorErrors(kml_jf_struct, azure_jf_struct, mapbox_jf_struct, false)
+disp('Points clicked by Kathryn');
+commonHorErrors(kml_kh_struct, azure_kh_struct, mapbox_kh_struct, true)
+commonHorErrors(kml_kh_struct, azure_kh_struct, mapbox_kh_struct, false)
+
 %% STD for human operation
 
 % Collect all north and east abs error std.
